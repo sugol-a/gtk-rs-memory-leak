@@ -1,5 +1,5 @@
 [package]
-name = "pixbuf-memory-leak"
+name = "gsk-memory-leak"
 version = "0.1.0"
 edition = "2021"
 
@@ -8,3 +8,7 @@ edition = "2021"
 [dependencies]
 gdk-pixbuf = "0.15.11"
 gtk4 = "0.4.8"
+
+[features]
+default = []
+leak = []
